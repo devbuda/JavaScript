@@ -1,3 +1,5 @@
+# Palindrome Checker - Victor Freire(devbuda)
+
 function palindrome(str) {
 
   str = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
