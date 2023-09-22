@@ -1,4 +1,4 @@
-# Roman Numeral Converter - Victor Freire(devbuda)
+/* Roman Numeral Converter - Victor Freire(devbuda) */
 
 function convertToRoman(num) {
   const romanNumerals = [
