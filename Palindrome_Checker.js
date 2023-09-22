@@ -1,4 +1,4 @@
-# Palindrome Checker - Victor Freire(devbuda)
+/* Palindrome Checker - Victor Freire(devbuda) */
 
 function palindrome(str) {
 
