@@ -37,16 +37,16 @@ class Calculator{
     if (isNaN(prev) || isNaN(current)) return
     switch (this.operation){
         case "+":
-            computation = prev + current
+            computation = prev + current;
             break
         case "-":
-            computation = prev - current
+            computation = prev - current;
             break
         case "*":
-            computation = prev * current
+            computation = prev * current;
             break
         case "÷":
-            computation = prev / current
+            computation = prev / current;
             break
         default:
             return
@@ -62,7 +62,7 @@ class Calculator{
         const decimalDigits = stringNumber.split(".")[1];
         let integerDisplay;
         if (isNaN(integerDigits)){
-            integerDisplay = ""
+            integerDisplay = "";
         } else {
             integerDisplay = integerDigits.toLocaleString("en", {maximumFractionDigits : 0});
         }
@@ -125,7 +125,7 @@ deleteButton.addEventListener("click", button => {
 
 document.addEventListener("keydown", function(event){
     let patternForNumbers = /[0-9]/g;
-    let patternsForOperator = /[+\-*\/]/g
+    let patternsForOperator = /[+\-*\/]/g;
     if (event.key,match(patternForNumbers)){
         event.preventDefault();
         calculator.appendNumber(event.key);
