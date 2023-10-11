@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Freire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <h1>About me</h1>
+            <p>My name is Victor Freire. <br>I work as a support analyst and have extensive knowledge 
+                <br>in hardware and design. I'm a software engineer currently residing in Manaus, Amazonas.<br>My interests encompass technology and programming, and I also have a keen interest in web development. 
+                <br>You can click the button below to access my resume. If you'd like to get in touch, please don't hesitate to reach out via any of the social links provided below.</p>
+            <a class="download-button" href="CV-Victor Freire.pdf" download>
+                <img src="cv.png" alt="Ícone de Currículo">Read my resume
+            </a>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="container-right">
+            <h1>Contact</h1>
+            <form id="contactForm" class="contactForm">
+                <label for="nome">Name:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="telefone">Telephone:</label>
+                <input type="tel" id="telefone" name="telefone" required pattern="[0-9]{9}" title="Exemplo: 9xxxxxx35">
+
+                <label for="observacao">Note:</label>
+                <textarea id="observacao" name="observacao" rows="4" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a class="facebook-icon" href="https://github.com/devbuda" target="_blank">github<i class="fab fa-github"></i></a>
+            <a class="twitter-icon" href="https://www.linkedin.com/in/victorfreire2022/" target="_blank">linkedin<i class="fab fa-linkedin"></i></a>
+            <a class="linkedin-icon" href="https://www.facebook.com/profile.php?id=100082199603562" target="_blank">facebook<i class="fab fa-facebook"></i></a>
+            <a class="instagram-icon" href="https://twitter.com/vetorfreire" target="_blank">twitter<i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>      
+    <link rel="stylesheet" href="app.js">
+</body>
+</html>
